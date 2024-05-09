@@ -1,4 +1,3 @@
-/* Reset styles */
 h1,
 h2,
 h3,
@@ -49,43 +48,42 @@ img {
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-.gallery {
+.input-timer {
+  width: 250px;
+  height: 30px;
+}
+
+button {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  width: 90px;
+  height: 35px;
+}
+
+.timer {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 24px;
-  list-style: none;
-  justify-content: center;
-  padding-left: 156px;
-  padding-right: 156px;
+  gap: 15px;
+  padding-top: 20px;
 }
-.gallery-item {
-}
-.gallery-image {
-  width: 360px;
-  height: 200px;
-}
-.feedback-form {
+
+.field {
   display: flex;
   flex-direction: column;
-  border-radius: 8px;
-  padding: 24px;
-  width: 408px;
-  height: 296px;
-  gap: 8px;
+  align-items: center;
 }
-.btn-submit {
-  background: #4e75ff;
-  border-radius: 8px;
-  padding: 8px 16px;
-  width: 95px;
-  height: 40px;
+
+.value {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 500;
 }
-.feedback-form-textarea {
-  width: 360px;
-  height: 80px;
-}
-.feedback-input-textarea {
-  width: 360px;
-  height: 40px;
+
+.label {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
 }
